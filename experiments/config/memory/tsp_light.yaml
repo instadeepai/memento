@@ -1,0 +1,4 @@
+defaults:
+  - tsp
+
+memory_size: 8 # 10000

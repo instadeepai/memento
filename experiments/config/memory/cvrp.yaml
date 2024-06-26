@@ -1,0 +1,13 @@
+_target_: memento.memory.external_memory.CVRPExternalMemory
+
+context_size: 128
+value_size: 129
+
+num_node_buckets: 15
+memory_size: 40 #100000
+
+num_nodes: 100
+
+### Testing Purposes: set to False for proper usage ###
+disable_returns: False
+behavior_dim: ${..behavior_dim}

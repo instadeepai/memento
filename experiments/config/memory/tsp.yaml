@@ -1,0 +1,13 @@
+_target_: memento.memory.external_memory.TSPExternalMemory
+
+context_size: 128
+value_size: 129
+
+num_node_buckets: 0 #100
+memory_size: 40 #40
+
+num_nodes: 100
+
+### Testing Purposes: set to False for proper usage ###
+disable_returns: False # returns are set to 0
+behavior_dim: ${..behavior_dim}
