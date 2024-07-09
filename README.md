@@ -23,7 +23,7 @@ This codebase contains the implementation of MEMENTO, MEMENTO-COMPASS, POMO, COM
 traveling salesman problem (TSP) and capacitated vehicle routing problem (CVRP) in JAX. We also provide the 
 training and evaluation scripts for MEMENTO, along with the necessary checkpoints and problem dataset files. 
 
-We are currently busy sorting out the checkpoints release. They will be available in a couple days.
+Validation sets and checkpoints available [here](https://drive.google.com/drive/folders/1pUf0FnFP5jr0d41cZFyfsvJF35TMzzxK?usp=drive_link).
 
 ## Code Overview 📁
 We provide implementations of MEMENTO and MEMENTO-COMPASS on all instances as well as POMO and COMPASS 
