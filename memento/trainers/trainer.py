@@ -461,7 +461,7 @@ class Trainer:
                     acting_keys,
                 )
 
-                # Mask logprob's for steps where the environement was done.
+                # Mask logprob's for steps where the environment was done.
                 #  - traj.observation.is_done = [0,0,...,0,1,1,...] with the first 1 at the terminal step.
                 #  - we want to mask everything *after* the last step, hence the roll & setting the
                 #    first step to always (obviously) not be done.

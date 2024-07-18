@@ -142,7 +142,7 @@ from Google's [TPU Research Cloud](https://sites.research.google/trc/about/) (TR
 ## Contributors 🤝
 
 <a href="https://github.com/felixchalumeau" title="Felix Chalumeau"><img src="https://github.com/felixchalumeau.png" height="auto" width="50" style="border-radius:50%"></a>
-<a href="https://github.com/refiloe-shabe" title="Refiloe Shabe"><img src="https://github.com/refiloe-shape.png" height="auto" width="50" style="border-radius:50%"></a>
+<a href="https://github.com/refiloe-shabe" title="Refiloe Shabe"><img src="https://github.com/refiloe-shabe.png" height="auto" width="50" style="border-radius:50%"></a>
 <a href="https://github.com/noahdenicola" title="Noah De Nicola"><img src="https://github.com/noahdenicola.png" height="auto" width="50" style="border-radius:50%"></a>
 <a href="https://github.com/nathangrinsztajn" title="Nathan Grinsztajn"><img src="https://github.com/nathangrinsztajn.png" height="auto" width="50" style="border-radius:50%"></a>
 <a href="https://github.com/tomdbar" title="Thomas D. Barrett"><img src="https://github.com/tomdbar.png" height="auto" width="50" style="border-radius:50%"></a>
