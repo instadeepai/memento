@@ -1,0 +1,27 @@
+encoder:
+  _target_: memento.networks.CVRPEncoder
+  num_layers: 6
+  num_heads: 8
+  key_size: 16
+  expand_factor: 4
+  model_size: 128
+  query_chunk_size: 200
+  key_chunk_size: 500
+
+decoder:
+  _target_: memento.networks.CVRPMemoryDecoder
+  num_heads: 8
+  key_size: 16
+  model_size: ${..encoder.model_size}
+  memory: ${memory}
+  memory_processing:
+    mlp:
+      num_layers: 4 #2
+      hidden_size: 64 #32
+      activation: gelu
+      init_zero: false # true
+  normalizer: "mean/std"
+  additional_data: true # false
+  interaction_terms: false
+  query_chunk_size: 1000
+  key_chunk_size: 1000
