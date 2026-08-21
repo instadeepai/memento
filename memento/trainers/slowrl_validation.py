@@ -36,7 +36,7 @@ def slowrl_rollout(
         environment: The environment to rollout.
         params: Dictionary of parameters for all Networks.  Encoder params are assumed to be shared
             across all agents. There is only one decoder in the case of conditioned decoder. A population
-            is implicitely created by the use of several behavior markers as input to the decoder.
+            is implicitly created by the use of several behavior markers as input to the decoder.
         networks: The required networks.
         problems: A batch of N problems ([N, problem_size, 2]).
         start_positions: M starting positions for each problem-agent pair ([N, K, M]).
